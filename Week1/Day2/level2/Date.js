@@ -1,6 +1,6 @@
 // const currentDate = new Date();
 
-// console.log("CurrentDate:"+currentDate);
+// console.log("CurrentDate:"+currentDate());
 // console.log("Year:"+currentDate.getFullYear());
 // console.log("Month:"+currentDate.getMonth());
 // console.log("Date:"+currentDate.getDate());
