@@ -13,7 +13,7 @@ app.get("/health-checkup",(req,res)=>{
         res.status(403).json({
             msg:"user doesn't exists"
         })
-        return;
+        return;  // write return so the contol dont stuck here go to the next
     }
     if(kidneyId!=1&&kidneyId!=2){
          res.status(411).json({
