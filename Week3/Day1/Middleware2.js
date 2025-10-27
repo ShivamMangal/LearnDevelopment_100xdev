@@ -44,12 +44,4 @@ app.get("/health-checkup", userMiddleware, kidneyMiddleware, function(req, res) 
 });
 
 
-app.get("/kidney-checkup", userMiddleware, kidneyMiddleware, function(req, res) {
-    // Do kidney check here 
-});
-
-app.get("/heart-checkup", userMiddleware, function(req, res) {
-    // Do heart check here 
-});
-
 app.listen(3000);
