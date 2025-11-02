@@ -10,3 +10,24 @@ Asynchronous code execution allows to execute next instructions immediately and 
 Callback Hell : Nested callbacks stacked below one another forming a pyramid structure. (Pyramid of Doom)
 This style of programming becomes difficult to understand & manage.
 
+-------------------------------------------------------------------------------------------------
+
+Callback:
+callback humesha ek function hota hai, ye sirf tab chalta hai jab async code ka completion hojaata hai.
+
+->async code likhne ke liye 
+fetch
+XMLHttpRequest 
+axios
+promises 
+settimeout
+setinterval
+
+//async code ka jab response(answer) aata ha to use chelane ke lia use krte ha
+callback
+then catch
+async await
+
+async Await:
+koi bhi esa function jisme aap async code likhege, kyoki async code hai
+to aap promises ka istemaal kar sakte hai, jab uska answer aayega aapko then lagana padega, us then ko lagaane se bachne ke liye, aap async await ka istemaal kar sakte hai.
