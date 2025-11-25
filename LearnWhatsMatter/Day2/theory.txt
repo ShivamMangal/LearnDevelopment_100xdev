@@ -1,0 +1,36 @@
+📌 Short Notes: Mastering Node.js Fundamentals
+
+Node.js = JavaScript ka server-side runtime Environment (Chrome V8 engine par based).
+
+Non-blocking & Asynchronous architecture hoti hai → ek request ke wait me server block nahi hota.
+
+Event Loop background me tasks(async) handle karta hai, jisse Node fast & scalable banta hai.
+
+=>Modules system:
+
+require() se module import
+
+module.exports se export
+
+
+NPM (Node Package Manager): Node ka package store
+
+Libraries install karne ke liye use hota hai (express, mongoose etc.)
+
+HTTP module se basic server banaya ja sakta hai (request-response handle karta hai).
+
+=>Node.js mainly use hota hai:
+
+API banane me
+
+Database se connect karne me
+
+Realtime apps (chat apps)
+
+Backend logic handle karne me
+
+Node.js single-threaded hota hai but async nature se high performance deta hai.
+
+
+get= ka data url ma dikhta ha 
+post = ka nhi dikhta

@@ -1,0 +1,45 @@
+Express.js is a lightweight and fast web framework for Node.js. It helps developers build APIs and web applications easily by providing routing, middleware, and request/response handling features. It simplifies backend development.
+
+5 Key Points (Easy Language)
+1. Middleware Support
+
+Middleware functions handle requests step-by-step (authentication, logging, parsing, etc.).
+It makes code organized and reusable.
+
+2. Simple Routing System
+
+Express provides easy methods like app.get(), app.post() to create routes.
+Helps manage different URLs of an application.
+
+3. Request & Response Handling
+
+Express makes it easy to handle incoming data (req) and send output to client (res).
+
+4. Built-in & Third-party Modules
+
+It has built-in utilities and also supports many external packages like mongoose, cors, jsonwebtoken, etc.
+
+5. Template Engine Support
+
+Supports engines like EJS, Pug for rendering dynamic HTML pages.
+
+
+=>request and response, next
+req mein saara data hota hai aane waale user ki request ki taraf ka, jaise ki uski location, device info and other things, res mein controls hote hai jinke basis pe hum server se response bhej paate hai, next is just a push so that our request moves to the next thing which should be executed
+
+
+=>route parameters
+- to make any route dynamic you can use : at the place where you want to make it dynamic, and to access there value use req. params
+
+=>ejs setup karne ke liye (ye intweview ke lia nhi ha)
+1= ejs install
+npm i ejs
+
+2 = configure ejs
+app. set ("view engine", "ejs");
+
+3=ek views folder banao
+usmein ejs files banao
+
+send ki jagah render karo => render karte waqt make sure aap view
+folder ke andar waali hi koi file kaa naam likhein, aur render ma ejs mention naa karein

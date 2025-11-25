@@ -1,0 +1,23 @@
+=>NPM understanding: 
+ .node js core mein jo installed aata hai wo kehlaata hain module
+ .npm-se download Krte hai wo hota hai package
+
+=>installing and uninstalling anything basics & advanced
+ .install →> npm i packageKaNaam
+ .uninstall -> npm uninstall packageKaNaam
+ .installing particular versions -> npm i packageKaNaam@version
+
+=>understanding node_modules : iss folder se hme mtlb nhi !
+
+=>dependencies:packages and packages ki dependencies!
+
+=>devdependencies:aase packages jo sirf development ma kam aaege jab app bn jaega or upload ho jaega tab ham un packages ko use nhi kr rehe hoge example: npm i packageKaNaam --save-dev!
+
+=>scripts - understanding default scripts PATH and custom scripts:
+
+
+
+
+
+
+

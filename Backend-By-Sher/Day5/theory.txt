@@ -1,0 +1,8 @@
+->form handling and working with forms
+->handle backend process of forms and making sure the data coming from any frontend lib, fw, templating engines, we still handle it at the backend
+->Session and Cookie
+.hum log kuchh bhi data frontend par browser par rakh skte hai and jab bhi aap kuchh bhi request backend par karoge wo frontend par saved data automatically backend par chala jaayega
+
+.tumne to bheja tha plain text par server ko mila (encoded) which is not directly readable
+ab is cheej ko handle karna padega ki hum us (encoded) ko waapas se readable kar sake
+

@@ -1,0 +1,33 @@
+Node.js Basics:
+Introduction to Node.js.
+Installing Node-js and npm.
+Working with modules.  : const somthing = require something -> ye sab pre install hota ha node ma not like express jo npm se install hota ha.
+File system operations.
+understanding HTTP module
+--------------------------------------------
+
+->Node.js: js runtime environment.  Reason: 
+hum js ka code likhege jo ki wrapper layer of js receive karegi and wo code v8 engine ke c++ modules ke saath ek server create krega
+
+Story:js se backend nahi ban sakta
+kyuki js ke paas wo functionalities nahi hai jinse backend banta hai ryan dahl isne socha js se backend banna chahiye
+google chrome ka v8 engine ka code open source hai and ryan dahl us code mein
+chhedkhaani kar raha hai
+kyuki chrome ka v8 engine bana hai c++ mein 
+fir usne socha ki humein to js mein code karna hai
+
+Diagram:Notes ma bnaya ha:
+
+npm: npm init → package.json →> lekha jokha of the project.
+
+->understanding HTTP module: Notes ma likha ha english ma to hakirat wale ma!
+
+Story:internet par kuchh bhi karne ke liye rules banaaye gaye hai unke dwaara jinhone internet banaaya hai, ab un rules ko follow karna jaruri hai, aur ye rules follow ho isliye ye rules aap ke operating system ke software mein pre installed aate hail
+
+http - protocol
+. yahi protocol hai ya rule hai jisko follow kare bina aap internet pe naa hi kuchh bhej sakte ho, naa hi kuchh manga sakte ho
+
+
+
+
+

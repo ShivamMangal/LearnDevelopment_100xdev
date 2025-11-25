@@ -1,0 +1,44 @@
+📌 Short Notes: Understanding the Internet
+
+Internet = duniya bhar ke networks ka network.
+
+Iska koi single owner nahi hota (decentralized).
+
+Devices ek-dusre se data packets bhej kar communicate karte hain.
+
+Data chhote-chhote packets me split hota hai → servers tak jaata hai → wapas client ko aata hai.
+
+Server = special computer jo request recieve karta hai aur response deta hai.
+
+HTTP = normal web protocol (secure nahi).
+
+HTTPS = encrypted secure protocol (TLS/SSL).
+
+Ports = server ke andar specific service ki “gate number” (80 → HTTP, 443 → HTTPS).
+
+Internet chalta hai cables, towers, routers aur under-sea fibre optic cables se.
+
+
+📌 IP Address (Internet Protocol Address) – Short Notes
+
+IP address = device ka internet par home address.
+
+Har device ko internet pe identify karne ke liye IP address diya jata hai.
+
+Example: 192.168.1.1 (IPv4), aur IPv6 bhi hota hai.
+
+IP address change hota rehta hai (especially mobile networks).
+
+Devices jab internet use karte hain, unka IP decide hota hai by ISP (Jio, Airtel, etc.).
+
+📌 MAC Address (Media Access Control Address) – Short Notes
+
+MAC address = device ka permanent physical address.
+
+Har network hardware (Wi-Fi card, LAN card) ka ek unique MAC hota hai.
+
+Example format: A4:B1:C3:D2:EF:11.
+
+Yeh factory se fixed hota hai — generally change nahi hota.
+
+Network me device ko identify karne ke liye use hota hai at hardware level.
